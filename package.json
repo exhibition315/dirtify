@@ -1,0 +1,40 @@
+{
+  "name": "dirtify",
+  "version": "0.0.1",
+  "description": "A helper function to create dirtify object",
+  "main": "dist/dirtify.cjs",
+  "module": "dist/dirtify.mjs",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/dirtify.d.ts",
+      "import": "./dist/dirtify.mjs",
+      "require": "./dist/dirtify.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exhibition315/dirtify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exhibition315/dirtify/issues"
+  },
+  "homepage": "https://github.com/exhibition315/dirtify#readme",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.3",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  }
+}

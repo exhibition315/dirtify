@@ -1,4 +1,4 @@
-# Dirtify Proxy
+# Dirtify
 
 A lightweight JavaScript utility to track changes in an object (and its nested objects) using ES6 Proxy. It indicates if an object is "dirty" (i.e., if any of its properties have been modified) and which specific fields were changed.
 
@@ -13,15 +13,14 @@ A lightweight JavaScript utility to track changes in an object (and its nested o
 ## Installation
 
 ```bash
-npm install dirtify-proxy
-# or
-yarn add dirtify-proxy
+npm install dirtify
+yarn add dirtify
 ```
 
 ## Usage
 
 ```javascript
-import dirtify from 'dirtify-proxy';
+import dirtify from 'dirtify';
 
 const originalObject = {
   name: 'John Doe',
